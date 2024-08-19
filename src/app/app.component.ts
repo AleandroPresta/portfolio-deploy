@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { NavigationComponent } from './navigation/navigation.component';
 import { ProfileComponent } from './profile/profile.component';
 import { AboutComponent } from './about/about.component';
+import { SkillsComponent } from './skills/skills.component';
 
 @Component({
   selector: 'app-root',
@@ -11,7 +12,8 @@ import { AboutComponent } from './about/about.component';
     RouterOutlet,
     NavigationComponent,
     ProfileComponent,
-    AboutComponent
+    AboutComponent,
+    SkillsComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
