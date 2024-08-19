@@ -1,4 +1,4 @@
-/* Make the about image 200px in width when the screen is 576px or less */
+/* Make the about image 350px in width when the screen is 576px or less */
 @media (max-width: 576px) {
   .about-image {
     width: 350px;
