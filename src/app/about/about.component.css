@@ -77,16 +77,88 @@
   margin-bottom: 0;
 }
 
-/* Responsive image sizing */
-@media (max-width: 576px) {
-  .about-image {
-    width: 350px;
-  }
+.skill-category {
+  margin-bottom: 1.5rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* Add some spacing for mobile view */
-@media (max-width: 768px) {
-  .education-item:not(:last-child) {
-    margin-bottom: 2rem;
-  }
+.skill-category-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #212529;
+  display: flex;
+  align-items: center;
+}
+
+.skill-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skill-pill {
+  background-color: rgba(33, 37, 41, 0.05);
+  padding: 0.35rem 0.75rem;
+  border-radius: 1rem;
+  font-size: 0.85rem;
+  color: #495057;
+  transition: all 0.2s ease-in-out;
+}
+
+.skill-pill:hover {
+  background-color: rgba(33, 37, 41, 0.1);
+  transform: translateY(-2px);
+}
+
+.skills-card {
+  height: auto !important;
+}
+
+.education-category {
+  margin-bottom: 1.5rem;
+  text-align: left;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.education-category-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #212529;
+  display: flex;
+  align-items: center;
+}
+
+.education-details {
+  background-color: rgba(33, 37, 41, 0.05);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.75rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.education-details:hover {
+  background-color: rgba(33, 37, 41, 0.1);
+  transform: translateY(-2px);
+}
+
+.education-period {
+  font-size: 0.85rem;
+  color: #6c757d;
+  margin-bottom: 0.25rem;
+}
+
+.education-school {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.education-degree {
+  font-size: 0.9rem;
+  color: #495057;
 }
